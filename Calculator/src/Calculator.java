@@ -11,9 +11,14 @@ public class Calculator {
 		int y = sc.nextInt();
 		
 		//below are the output prints.
-		
+		System.out.println("The product of a and b is: " + multiply(x, y));
+
 		
 		sc.close();
 		
+	}
+
+	public static double multiply(double a, double b) {
+	    return a * b;
 	}
 }
