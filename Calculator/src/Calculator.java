@@ -5,10 +5,10 @@ public class Calculator {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Input the first Number: ");
-		int x = sc.nextInt();
+		double x = sc.nextInt();
 		
 		System.out.println("Input the second number: ");
-		int y = sc.nextInt();
+		double y = sc.nextInt();
 		
 		//below are the output prints.
 		System.out.println("The quotient of a and b is: " + division(x, y) );
