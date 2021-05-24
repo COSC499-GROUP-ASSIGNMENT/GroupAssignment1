@@ -5,15 +5,19 @@ public class Calculator {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Input the first Number: ");
-		int x = sc.nextInt();
+		double x = sc.nextInt();
 		
 		System.out.println("Input the second number: ");
-		int y = sc.nextInt();
+		double y = sc.nextInt();
 		
-		//below are the output prints.
-		
-		
-		sc.close();
-		
+        System.out.println("The product of x and y is: "+ subtraction(x, y));
+
+        sc.close();
+
 	}
+
+    public static double subtraction(double x, double y) {
+        return x-y;
+    }
+
 }
