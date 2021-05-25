@@ -13,20 +13,19 @@ public class Calculator {
 		double y = sc.nextDouble();
 		
 		//below are the output prints.
-    System.out.println("The addition of the two numbers are: " + addition(x,y));
-    System.out.println("The product of x and y is: "+ subtraction(x, y));
+    		System.out.println("The addition of the two numbers are: " + addition(x,y));
+    		System.out.println("The product of x and y is: "+ subtraction(x, y));
 		System.out.println("The quotient of a and b is: " + division(x, y) );
 		System.out.println("The product of a and b is: " + multiply(x, y));
-	System.out.println("Result of: " + x + " % " + y + " is " + (int) modulo(x,y));
+		System.out.println("Result of: " + x + " % " + y + " is " + (int) modulo(x,y));
 
-		
 		sc.close();
 		
 	}
 
 	public static double addition(Double a, Double b) {
-		return a+b;
-  }
+		return a + b;
+  	}
 
 	public static double division(double a, double b){
 		double ans = 0;
@@ -37,16 +36,16 @@ public class Calculator {
 			ans = a/b;
 
 		return ans;
-  }
+  	}
     
 	public static double multiply(double a, double b) {
-	    return a * b;
+		return a * b;
 
 	}
     
-  public static double subtraction(double x, double y) {
-        return x-y;
-  }
+  	public static double subtraction(double x, double y) {
+        	return x - y;
+ 	}
 
 	public static double modulo(double n1, double n2) {
 		return (int)n1 % (int)n2;
