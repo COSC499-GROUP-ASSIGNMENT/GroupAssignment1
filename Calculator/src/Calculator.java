@@ -11,6 +11,7 @@ public class Calculator {
 		double y = sc.nextInt();
 		
 		//below are the output prints.
+		System.out.println("The quotient of a and b is: " + division(x, y) );
 		System.out.println("The product of a and b is: " + multiply(x, y));
 
 		
@@ -18,6 +19,17 @@ public class Calculator {
 		
 	}
 
+	public static double division(double a, double b){
+		double ans = 0;
+		if (b == 0)
+			System.out.println("You can not divide by zero.");
+		
+		else
+			ans = a/b;
+
+		return ans;
+  }
+    
 	public static double multiply(double a, double b) {
 	    return a * b;
 	}
