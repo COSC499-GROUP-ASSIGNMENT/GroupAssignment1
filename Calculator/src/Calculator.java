@@ -23,10 +23,12 @@ public class Calculator {
 		
 	}
 
+	//method to calculate addition
 	public static double addition(Double a, Double b) {
 		return a + b;
   	}
 
+	//method to calculate division
 	public static double division(double a, double b){
 		double ans = 0;
 		if (b == 0)
@@ -38,15 +40,18 @@ public class Calculator {
 		return ans;
   	}
     
+	//method to calculate multiplication
 	public static double multiply(double a, double b) {
 		return a * b;
 
 	}
     
+	//method to calculate subtraction
   	public static double subtraction(double x, double y) {
         	return x - y;
  	}
 
+	//method to calculate modulo
 	public static double modulo(double n1, double n2) {
 		return (int)n1 % (int)n2;
 	}
